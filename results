@@ -1,0 +1,74 @@
+Prashanths-MacBook-Air:04.Topic-3.SentimentAnalysis.NaiveBayes+LogisticRegression rvsprashanth$ python sentiment.py data/imdb/ 0
+Naive Bayes
+-----------
+predicted:	pos	neg
+actual:
+pos		10869	1631
+neg		2284	10216
+accuracy: 0.843400
+
+Logistic Regression
+-------------------
+predicted:	pos	neg
+actual:
+pos		10769	1731
+neg		2080	10420
+accuracy: 0.847560
+Prashanths-MacBook-Air:04.Topic-3.SentimentAnalysis.NaiveBayes+LogisticRegression rvsprashanth$ python sentiment.py data/imdb/ 1
+Training iteration 0
+Training iteration 1
+Training iteration 2
+Training iteration 3
+Training iteration 4
+Naive Bayes
+-----------
+predicted:	pos	neg
+actual:
+pos		5519	6981
+neg		2187	10313
+accuracy: 0.633280
+
+Logistic Regression
+-------------------
+predicted:	pos	neg
+actual:
+pos		10757	1743
+neg		1704	10796
+accuracy: 0.862120
+Prashanths-MacBook-Air:04.Topic-3.SentimentAnalysis.NaiveBayes+LogisticRegression rvsprashanth$ python sentiment.py data/twitter/ 0
+Naive Bayes
+-----------
+predicted:	pos	neg
+actual:
+pos		67599	7401
+neg		52108	22892
+accuracy: 0.603273
+
+Logistic Regression
+-------------------
+predicted:	pos	neg
+actual:
+pos		67701	7299
+neg		52239	22761
+accuracy: 0.603080
+Prashanths-MacBook-Air:04.Topic-3.SentimentAnalysis.NaiveBayes+LogisticRegression rvsprashanth$ python sentiment.py data/twitter/ 1
+Training iteration 0
+Training iteration 1
+Training iteration 2
+Training iteration 3
+Training iteration 4
+Naive Bayes
+-----------
+predicted:	pos	neg
+actual:
+pos		55024	19976
+neg		45435	29565
+accuracy: 0.563927
+
+Logistic Regression
+-------------------
+predicted:	pos	neg
+actual:
+pos		57116	17884
+neg		30427	44573
+accuracy: 0.677927
